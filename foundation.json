@@ -1,0 +1,98 @@
+{
+  "name": "Esa",
+  "dataDir": "esa",
+  "engine": {
+    "Ethash": {
+      "params": {
+        "minimumDifficulty": "0x20000",
+        "difficultyBoundDivisor": "0x800",
+        "durationLimit": "0xd",
+        "blockReward": {
+          "0x0": "0x4563918244f40000"
+        },
+        "homesteadTransition": "0x0",
+        "daoHardforkTransition": "0x0",
+        "daoHardforkBeneficiary": "0x0000000000000000000000000000000000000000",
+        "daoHardforkAccounts": [],
+        "eip100bTransition": "0x0",
+        "difficultyBombDelays": {}
+      }
+    }
+  },
+  "params": {
+    "gasLimitBoundDivisor": "0x400",
+    "registrar": "0x0000000000000000000000000000000000000000",
+    "accountStartNonce": "0x0",
+    "maximumExtraDataSize": "0x20",
+    "minGasLimit": "0x1388",
+    "networkID": "0x146de",
+    "forkBlock": "0x0",
+    "forkCanonHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "eip150Transition": "0x0",
+    "eip160Transition": "0x0",
+    "eip161abcTransition": "0x0",
+    "eip161dTransition": "0x0",
+    "eip155Transition": "0x0",
+    "maxCodeSize": "0x6000",
+    "maxCodeSizeTransition": "0x0",
+    "eip140Transition": "0x0",
+    "eip211Transition": "0x0",
+    "eip214Transition": "0x0",
+    "eip658Transition": "0x0",
+    "eip145Transition": "0x0",
+    "eip1014Transition": "0x0",
+    "eip1052Transition": "0x0",
+    "eip152Transition": "0x0",
+    "eip1108Transition": "0x0",
+    "eip1344Transition": "0x0",
+    "eip1884Transition": "0x0",
+    "eip2028Transition": "0x0",
+    "eip2200Transition": "0x0",
+    "eip2565Transition": "0x0",
+    "eip2929Transition": "0x0",
+    "eip2930Transition": "0x0",
+    "eip1559Transition": "0x0",
+    "eip3198Transition": "0x0",
+    "eip3529Transition": "0x0",
+    "eip3541Transition": "0x0",
+    "eip3651TransitionTimestamp": "0x0",
+    "eip3855TransitionTimestamp": "0x0",
+    "eip3860TransitionTimestamp": "0x0",
+    "eip4895TransitionTimestamp": "0x0",
+    "eip1153TransitionTimestamp": "0x0",
+    "eip4788TransitionTimestamp": "0x0",
+    "eip4844TransitionTimestamp": "0x0",
+    "eip5656TransitionTimestamp": "0x0",
+    "eip6780TransitionTimestamp": "0x0",
+    "terminalTotalDifficulty": "0x0"
+  },
+  "genesis": {
+    "seal": {
+      "ethereum": {
+        "nonce": "0x0000000000000042",
+        "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    "difficulty": "0x20000",
+    "author": "0x0000000000000000000000000000000000000000",
+    "timestamp": "0x6048d57c",
+    "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "extraData": "0x42",
+    "gasLimit": "0x2fefd8"
+  },
+  "nodes": [
+    "enode://bc3a55e21d1dcc5afc94e3ecb2ac96f479d31fdc2b29d9bbc6233fcc47077623a7d4a22f3491465b43e410c14c6c15585a7d26dc5d7e84a0ab8b66e531040c75@193.106.228.97:30303"
+  ],
+  "accounts": {
+    "0x92a671d4e3295ebc0e2c13bf90a103d0347bd4c3": {
+      "balance": "0x341CC4D7E46E7A9F000000"
+    },
+    "0x7e56e25355bee0c4f92eeecb1db97bda8e4e5edc": {
+      "balance": "0x457BB11FDB3DF8D4000000"
+    },
+    "0x2411f1d18a79e3ad80e9a79fe5c0598be6c8d6af": {
+      "balance": "0x341CC4D7E46E7A9F000000"
+    }
+  }
+}
+
