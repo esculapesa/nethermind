@@ -25,7 +25,7 @@
     "accountStartNonce": "0x0",
     "maximumExtraDataSize": "0x20",
     "minGasLimit": "0x1388",
-    "networkID": "0x146de",
+    "networkID": "0x1454E",
     "forkBlock": "0x0",
     "forkCanonHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
     "eip150Transition": "0x0",
